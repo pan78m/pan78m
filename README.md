@@ -28,5 +28,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=pan78m&show_icons=true&locale=en" alt="pan78m" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pan78m&" alt="pan78m" /></p>
-
-s
