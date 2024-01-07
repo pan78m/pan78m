@@ -13,7 +13,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://fb.com/pankaj.mahanto.78" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="pankaj.mahanto.78" height="30" width="40" /></a>
-<a href="(https://www.youtube.com/@pan78mtricks)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="pan78m tricks" height="30" width="40" /></a>
+<a href="https://www.youtube.com/@pan78mtricks" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="pan78m tricks" height="30" width="40" /></a>
 <a href="https://codeforces.com/profile/pan78m" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="pan78m" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/aryanpankaj78" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="aryanpankaj78" height="30" width="40" /></a>
 <a href="https://www.hackerearth.com/pankaj mahanto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="pankaj mahanto" height="30" width="40" /></a>
