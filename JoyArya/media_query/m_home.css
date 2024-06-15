@@ -1,0 +1,52 @@
+/* CSS code for screens up to 991px */
+@media screen and (max-width: 991px) {
+    .header .header-info {
+      grid-template-columns: auto;
+      gap: 10px;
+      text-align: center;
+    }
+    .header .header-info h1 {
+      font-size: 2.2rem;
+    }
+    .header .header-image img {
+      width: 30vh;
+    }
+    .content-details {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* CSS code for screens up to 767px */
+  @media screen and (max-width: 767px) {
+    .header .header-info h1 {
+      font-size: 2rem;
+    }
+    .header .header-info p {
+      font-size: 1.1rem;
+    }
+    .header .header-info a {
+      padding: 5px 20px;
+      font-size: 0.9rem;
+    }
+    .header .header-image img {
+      display: none;
+    }
+    .content-details {
+      grid-template-columns: auto;
+    }
+  }
+  
+  /* CSS code for screens up to 479px */
+  @media screen and (max-width: 479px) {
+    .header .header-info h1 {
+      font-size: 1.8rem;
+    }
+    .header .header-info p {
+      font-size: 1rem;
+    }
+    .header .header-info a {
+      padding: 5px 15px;
+      font-size: 0.8rem;
+    }
+  }
+  

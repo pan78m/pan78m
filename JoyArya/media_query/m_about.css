@@ -1,0 +1,124 @@
+/* CSS code for screens up to 991px */
+@media screen and (max-width: 991px) {
+    .about-section,
+    .about_section_details,
+    .intro p,
+    .personal_information,
+    .personal_information img,
+    .personal_information table,
+    .mail_tooltip_bottom,
+    .resume_blog_section,
+    .resume_blog_section a,
+    .experience_education_section,
+    .experience_section,
+    .education_section,
+    .experience_details,
+    .education_details,
+    .bullet,
+    .experience_education_time,
+    .experience_education_time span,
+    .experience_education_time_icon,
+    .experience_details h3,
+    .education_details h3,
+    .experience_details b,
+    .education_details a,
+    .education_details a ion-icon,
+    .experience_details p,
+    .education_details p,
+    .skills_section,
+    .all_skills_section,
+    .all_skills b,
+    .all_skills p,
+    .all_skills p ion-icon,
+    .modal,
+    .modal-content,
+    .modal-header,
+    .modal-body,
+    .close {
+      width: auto;
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  /* CSS code for screens up to 767px */
+  @media screen and (max-width: 767px) {
+    .about-section,
+    .about_section_details,
+    .personal_information,
+    .personal_information img,
+    .resume_blog_section,
+    .resume_blog_section a,
+    .experience_education_section,
+    .experience_section,
+    .education_section,
+    .experience_details,
+    .education_details,
+    .bullet,
+    .experience_education_time,
+    .experience_education_time_icon,
+    .experience_details h3,
+    .education_details h3,
+    .experience_details b,
+    .education_details a,
+    .education_details a ion-icon,
+    .experience_details p,
+    .education_details p,
+    .skills_section,
+    .all_skills_section,
+    .all_skills b,
+    .all_skills p,
+    .all_skills p ion-icon,
+    .modal,
+    .modal-content,
+    .modal-header,
+    .modal-body,
+    .close {
+      width: auto;
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  /* CSS code for screens up to 479px */
+  @media screen and (max-width: 479px) {
+    .about-section,
+    .about_section_details,
+    .personal_information,
+    .personal_information img,
+    .resume_blog_section,
+    .resume_blog_section a,
+    .experience_education_section,
+    .experience_section,
+    .education_section,
+    .experience_details,
+    .education_details,
+    .bullet,
+    .experience_education_time,
+    .experience_education_time_icon,
+    .experience_details h3,
+    .education_details h3,
+    .experience_details b,
+    .education_details a,
+    .education_details a ion-icon,
+    .experience_details p,
+    .education_details p,
+    .skills_section,
+    .all_skills_section,
+    .all_skills b,
+    .all_skills p,
+    .all_skills p ion-icon,
+    .modal,
+    .modal-content,
+    .modal-header,
+    .modal-body,
+    .close {
+      width: auto;
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  

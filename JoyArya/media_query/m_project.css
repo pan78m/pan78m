@@ -1,0 +1,45 @@
+/* CSS code for screens up to 991px */
+@media screen and (max-width: 991px) {
+    .project_btn {
+      padding: 5px 15px;
+      margin-inline: 3px;
+    }
+    .project_thumbnail {
+      width: 30vw;
+    }
+    .project_links a {
+      width: 45%;
+    }
+  }
+  
+  /* CSS code for screens up to 767px */
+  @media screen and (max-width: 767px) {
+    .project_section {
+      height: auto;
+    }
+    .projects_section_details {
+      height: auto;
+    }
+    .projects_container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .project_thumbnail {
+      width: 80vw;
+    }
+    .project_back {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .project_links a {
+      width: 70%;
+    }
+  }
+  
+  /* CSS code for screens up to 479px */
+  @media screen and (max-width: 479px) {
+    .project_thumbnail {
+      width: 90vw;
+    }
+  }
+  

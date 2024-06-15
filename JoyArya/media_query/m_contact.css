@@ -1,0 +1,34 @@
+/* CSS code for screens up to 991px */
+@media screen and (max-width: 991px) {
+    .contact-section {
+      height: auto;
+    }
+    .contact_section_details {
+      height: auto;
+      grid-template-columns: auto;
+      grid-gap: 3%;
+    }
+    .map {
+      grid-column: 1 / span 1;
+    }
+  }
+  
+  /* CSS code for screens up to 767px */
+  @media screen and (max-width: 767px) {
+    .contact_section_details {
+      grid-template-columns: auto;
+      grid-gap: 3%;
+    }
+    .form_inputs {
+      flex-direction: column;
+    }
+  }
+  
+  /* CSS code for screens up to 479px */
+  @media screen and (max-width: 479px) {
+    .contact_section_details {
+      grid-template-columns: auto;
+      grid-gap: 3%;
+    }
+  }
+  

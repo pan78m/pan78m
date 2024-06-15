@@ -1,0 +1,51 @@
+/* CSS code for screens up to 991px */
+@media screen and (max-width: 991px) {
+    .container {
+      padding: 0;
+    }
+    .content-container {
+      grid-template-columns: 1fr;
+    }
+    .close-button {
+      display: block;
+    }
+    .circle1,
+    .circle2 {
+      display: block;
+    }
+  }
+  
+  /* CSS code for screens up to 767px */
+  @media screen and (max-width: 767px) {
+    .container {
+      padding: 0;
+    }
+    .content-container {
+      grid-template-columns: 1fr;
+    }
+    .close-button {
+      display: block;
+    }
+    .circle1,
+    .circle2 {
+      display: none;
+    }
+  }
+  
+  /* CSS code for screens up to 479px */
+  @media screen and (max-width: 479px) {
+    .container {
+      padding: 0;
+    }
+    .content-container {
+      grid-template-columns: 1fr;
+    }
+    .close-button {
+      display: block;
+    }
+    .circle1,
+    .circle2 {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,373 @@
+/* ~~~~~~~~~~~~~ */
+/* About Section */
+/* ~~~~~~~~~~~~~ */
+
+.about-section {
+  position: relative;
+  height: 85vh;
+}
+
+.about_section_details {
+  height: 89vh;
+}
+
+/* ~~~~~~~~~~~~~ */
+/* Intro Section */
+/* ~~~~~~~~~~~~~ */
+
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  animation: displayContent 0.6s linear;
+}
+.intro p {
+  width: 80%;
+  margin-block: 10px;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5em;
+  color: var(--secondary-dark-text);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Personal Infromation Section */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.personal_information {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 10%;
+  text-align: left;
+  padding-block: 20px;
+  animation: displayContent 0.6s linear;
+}
+
+.personal_information img {
+  width: 20%;
+  margin-right: 10%;
+  border-radius: 50%;
+  border: 5px solid var(--primary-dark-color);
+}
+.personal_information table {
+  width: 400px;
+  font-size: 1.1em;
+  line-height: 1.5rem;
+}
+.personal_information table tr th {
+  color: var(--secondary-dark-text);
+  font-weight: 500;
+}
+.personal_information table tr td {
+  position: relative;
+  color: var(--primary-dark-text);
+}
+.personal_information table tr td a {
+  color: var(--primary-dark-text);
+  text-decoration: none;
+}
+.personal_information table tr td a:hover {
+  color: var(--primary-dark);
+  transition: all 0.2s ease-in-out;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Tooltip For mail on hover */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.mail_tooltip {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  line-height: 1em;
+}
+.mail_tooltip .mail_tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  width: fit-content;
+  background-color: var(--primary-dark-color);
+  color: var(--secondary-dark-text);
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  font-size: 0.8em;
+}
+.mail_tooltip_bottom {
+  top: 10px;
+  left: 50%;
+  margin-left: -180px;
+}
+.mail_tooltip_bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -7px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent var(--primary-dark-color) transparent;
+}
+.personal_information table tr td a:hover .mail_tooltiptext {
+  visibility: visible;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ */
+/* Resume Blog Section */
+/* ~~~~~~~~~~~~~~~~~~~ */
+
+.resume_blog_section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: displayContent 0.6s linear;
+}
+.resume_blog_section a {
+  color: var(--primary-dark);
+  text-decoration: none;
+  background-color: var(--primary-dark-color);
+  margin: 15px;
+  padding: 10px 30px;
+  border-radius: 7px;
+  width: 150px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0px 0px 7px var(--primary-dark-color-100) inset;
+  cursor: pointer;
+}
+.resume_blog_section a:hover {
+  background-color: var(--primary-dark);
+  color: var(--primary-dark-text);
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 7px var(--primary-dark-color) inset;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Experience and Education section */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.experience_education_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 2%;
+  margin-top: 4em;
+  color: var(--primary-dark-text);
+  line-height: 1.5em;
+  animation: displayContent 0.6s linear;
+}
+.experience_education_section h2 {
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 1.5em;
+}
+
+.experience_section,
+.education_section {
+  text-align: left;
+}
+.experience_details,
+.education_details {
+  font-weight: 400;
+  padding-bottom: 2em;
+  padding-inline: 7%;
+  position: relative;
+}
+.experience_details::before,
+.education_details::before {
+  content: "";
+  height: 100%;
+  opacity: 0.4;
+  border-left: 2px solid var(--primary-dark);
+
+  position: absolute;
+  left: 7px;
+  top: 0;
+}
+.experience_details:last-child,
+.education_details:last-child {
+  padding-bottom: 0;
+}
+.experience_details:hover .bullet,
+.education_details:hover .bullet {
+  background-color: var(--primary-dark);
+  border: 2px solid var(--primary-dark-text);
+  transition: all 0.3s ease;
+}
+
+.bullet {
+  height: 16px;
+  aspect-ratio: 1;
+  background: var(--primary-dark-color-100);
+  border-radius: 50%;
+  border: 2px solid var(--primary-dark);
+
+  position: absolute;
+  left: 0px;
+  top: 0;
+}
+
+.experience_education_time {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  color: var(--secondary-dark-text);
+}
+.experience_education_time span {
+  margin-top: -2px;
+}
+.experience_education_time_icon {
+  font-size: 1em;
+  margin-right: 5px;
+  margin-top: -2px;
+}
+
+.experience_details h3,
+.education_details h3 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.experience_details b,
+.education_details a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--secondary-dark-text);
+}
+.education_details a:hover {
+  color: var(--primary-dark-text);
+  transition: all 0.2s ease-in-out;
+}
+.education_details a ion-icon {
+  font-size: 14px;
+  margin-left: 2px;
+  margin-bottom: -1px;
+  color: var(--secondary-dark-text);
+}
+.education_details a:hover ion-icon {
+  font-weight: 900;
+  color: var(--primary-dark-text);
+  transition: all 0.2s ease-in-out;
+}
+.experience_details p,
+.education_details p {
+  margin-top: 10px;
+  color: var(--secondary-dark-text);
+}
+
+/* ~~~~~~~~~~~~~~ */
+/* Skills Section */
+/* ~~~~~~~~~~~~~~ */
+
+.skills_section {
+  padding-inline: 2%;
+  color: var(--primary-dark-text);
+  line-height: 1.7em;
+  animation: displayContent 0.6s linear;
+}
+
+/* ~~~~~~~~~~~~~~~~~~ */
+/* All Skills Section */
+/* ~~~~~~~~~~~~~~~~~~ */
+
+.all_skills_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: left;
+}
+.all_skills b {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 2em;
+}
+.all_skills p {
+  font-size: 14px;
+  color: var(--secondary-dark-text);
+}
+.all_skills p ion-icon {
+  margin-right: 7px;
+  margin-bottom: -2px;
+}
+
+/* ~~~~~~~~~~~~~ */
+/* Modal Section */
+/* ~~~~~~~~~~~~~ */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 15%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  backdrop-filter: blur(5px);
+}
+
+/* Modal Content */
+.modal-content {
+  display: grid;
+  place-items: center;
+  position: relative;
+  background-color: var(--primary-dark-color-100);
+  margin: auto;
+  padding: 20px;
+  color: var(--primary-dark-text);
+  border: 2px solid var(--primary-dark);
+  width: 30%;
+  height: fit-content;
+  border-radius: 10px;
+  animation: animateOpenModal 0.5s;
+}
+.modal-header {
+  text-align: center;
+  font-size: 1.5em;
+}
+.modal-body {
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 0 0 10px var(--primary-dark);
+}
+
+/* The Close Button */
+.close {
+  float: center;
+  background: var(--primary-dark-color);
+  border: none;
+  padding: 10px 30px;
+  width: 50%;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-dark);
+}
+.close:hover {
+  color: var(--primary-dark);
+  background-color: var(--primary-dark-text);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+@keyframes animateOpenModal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.div4 {
+  grid-row: 1 / 20;
+  box-shadow: 0px 0px 3px var(--primary-dark-color-100);
+}

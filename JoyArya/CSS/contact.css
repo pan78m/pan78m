@@ -1,0 +1,169 @@
+.contact-section {
+  position: relative;
+  height: 85vh;
+}
+.contact_section_details {
+  height: 85vh;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 4%;
+  color: var(--primary-dark-text);
+  padding-inline: 2%;
+  text-align: left;
+  animation: displayContent 0.6s linear;
+}
+
+.social_information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-dark-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+.social_information h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--primary-dark);
+}
+.social_information p,
+.social_information a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--secondary-dark-text);
+  text-decoration: none;
+}
+.social_information ion-icon {
+  color: var(--primary-dark-text);
+}
+
+.contact_social_icons ion-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 3%;
+}
+.contact_social_icons ion-icon:hover {
+  color: var(--primary-dark);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+/* ~~~~~~~~~~~~ */
+/* Form Section */
+/* ~~~~~~~~~~~~ */
+
+.contact_form fieldset {
+  border-radius: 10px;
+  border: 3px solid var(--primary-dark-color);
+  padding: 10px 20px;
+}
+.contact_form legend {
+  padding-inline: 7px;
+}
+.contact_form h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact_form p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--secondary-dark-text);
+}
+
+.form_inputs {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.input_field {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border-radius: 7px;
+  background-color: var(--primary-dark-color);
+}
+.input_field ion-icon,
+.form_textarea ion-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+.input_field input,
+.form_textarea textarea {
+  font-family: "Roboto Flex", sans-serif;
+  background-color: var(--primary-dark-color);
+  color: var(--primary-dark-text);
+  text-transform: uppercase;
+  border-radius: 7px;
+  padding: 10px 10px;
+  font-size: 12px;
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+.email_input_field input {
+  text-transform: initial;
+}
+
+/* Form Text Area */
+
+.form_textarea {
+  display: flex;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: var(--primary-dark-color);
+}
+.form_textarea ion-icon {
+  padding-top: 7px;
+}
+.form_textarea textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  text-transform: initial;
+}
+
+/* Submit */
+
+.form_btns {
+  display: flex;
+  gap: 10px;
+}
+
+.submit_btn,
+.reset_btn {
+  width: 50%;
+  padding: 10px 40px;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-block: 10px;
+  background-color: var(--primary-dark-color);
+  border: none;
+  cursor: pointer;
+  color: var(--primary-dark-text);
+}
+.submit_btn:hover,
+.reset_btn:hover {
+  background-color: var(--primary-dark);
+  transition: all 0.3s;
+}
+#form_message {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* Map Section */
+.map {
+  grid-column: 1 / span 2;
+}
+.map iframe {
+  border-radius: 10px;
+  border: 3px solid var(--primary-dark);
+}

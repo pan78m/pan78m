@@ -1,0 +1,46 @@
+/* CSS code for screens up to 991px */
+@media screen and (max-width: 991px) {
+    .my-self {
+      padding: 30px 20px;
+    }
+    .my-self img {
+      width: 90px;
+    }
+    .my-self h4 {
+      font-size: 1.2rem;
+    }
+    .my-self p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* CSS code for screens up to 767px */
+  @media screen and (max-width: 767px) {
+    .my-self {
+      grid-row: 1 / 8;
+      padding: 30px 20px;
+    }
+    .my-self img {
+      width: 70px;
+    }
+    .my-self h4 {
+      font-size: 1rem;
+    }
+    .my-self p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* CSS code for screens up to 479px */
+  @media screen and (max-width: 479px) {
+    .my-self img {
+      width: 60px;
+    }
+    .my-self h4 {
+      font-size: 0.9rem;
+    }
+    .my-self p {
+      font-size: 0.7rem;
+    }
+  }
+  
